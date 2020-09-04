@@ -1,0 +1,18 @@
+.cor-de-fundo{
+	background-color: #CDC9C9;
+	padding-left: 10%; 
+}
+.cor-de-fundo2{
+	background-color: orange;
+	padding-left: 10%; 
+}
+.img-perfil{
+	width: 300px;
+}
+header h1{
+	font-size: 50;
+}
+*{
+	color: black;
+
+}
