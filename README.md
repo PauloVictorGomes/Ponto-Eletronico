@@ -1,2 +1,2 @@
-# Ponto-Eletronico
+# Ponto Eletrônico
  Mini Projeto para faculdade
