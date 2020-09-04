@@ -19,13 +19,13 @@
     <!-- Meu JavaScript -->
     <script type='text/javascript' src='../js/formulario.js'></script>
 
-    <title>Cadastro</title>
+    <title>Bater Ponto</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-xs navbar-expand-md navbar-light bg-info">
         <div class="container"> 
-          <h1><a class="navbar-brand text-white" href="#">Ponto Eletrônico</a></h1>
+          <h1 ><a class="navbar-brand text-white" href="#">Ponto Eletrônico</a></h1>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,7 +34,7 @@
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item active">
-                <a class="nav-link text-white" href="login.html">Login</a>
+                <a class="nav-link text-white" href="cadastro.html">Cadastro</a>
               </li>
 
               <li class="nav-item active">
@@ -62,54 +62,33 @@
         </div>
       </nav>
     </header>
+
     <section>
       <div class="container-fluid " style="margin-top:5%">
-        
-        <div class="row justify-content-md-center rounded">
-          <div class="col-sm-4  bg-light text-white">
-            <h2 class="text-info">Cadastro</h2><br>
 
-            <form name='formulario-cadastro' action="#" method="get" id='frm'>
+        <div class="row justify-content-md-center rounded ">
+          <div class="col-sm-4 bg-light text-white" >
+            <h1 class="text-info">Login</h1><br>
+
+            <form name='formulario-login' action="#" method="get" id='frm'>
               <label for="nome">Nome:</label> 
               <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo" required><br>
 
               <label for="cpf">CPF:</label> 
-              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" required>
-              <!--<div class="d" style="display: block" id="display-cpf"><small>O campo cpf deve ter o seguinte formato 123.456.789-09</small></div><br>-->
+              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" >
+              <p> por imagem de um relógio digital com as horas no centro dessa div e mais pra baixo</p>
 
-              <label for="cargo">Cargo: </label> 
-              <input class="form-control" type="text" name="cargo" id="cargo" placeholder="Supervisor" required><br>
               
-              <label for="entrada">Entrada: </label> 
-              <input type="time" class="form-control" name="entrada" id="entrada" required><br>
-              <label for="saida">Saída: </label> 
-              <input type="time" class="form-control" name="saida" id="saida" required><br>
-              <!-- BOTÕES -->
-              <input type="submit" class="btn btn-info" value="Cadastrar" onclick='valida()'>
-              <input type="reset" class="btn btn-info" value="Redefinir" ><br><br>
-
-              <input type="checkbox"  name="noticias" value="ok" checked="">
-              Declaro que as informações acima prestadas são verdadeiras, e assumo a inteira responsabilidade pelas mesmas.
 
             </form>
-
           </div>
-
-          <div class="col-sm-2  bg-light text-white"><br><br>
-            <img src="../img/perfil.jpeg" class=" rounded-circle img-fluid"> 
-            <br><br><br><br><br><br>
-            <label for="obs">Observações:</label><small>  (opcional) </small>
-            
-            <textarea class="form-control" rows="5" id="obs"></textarea>
-          </div>
-
         </div>
 
       </div>
     </section>
 
     <footer>
-        
+      
     </footer>
 
   </body>
