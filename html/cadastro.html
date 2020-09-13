@@ -17,7 +17,7 @@
      <!-- Meu CSS -->
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     <!-- Meu JavaScript -->
-    <script type='text/javascript' src='../js/formulario.js'></script>
+    <script type='text/javascript' src='../js/formulario-cadastro.js'></script>
 
     <title>Cadastro</title>
   </head>
@@ -62,19 +62,20 @@
         </div>
       </nav>
     </header>
+
     <section>
       <div class="container-fluid " style="margin-top:5%">
         
-        <div class="row justify-content-md-center rounded">
-          <div class="col-sm-4  bg-light text-white">
+        <div class="row justify-content-md-center ">
+          <div class="col-sm-4  bg-light  rounded-left">
             <h2 class="text-info">Cadastro</h2><br>
-
-            <form name='formulario-cadastro' action="#" method="get" id='frm'>
+            
+            <form name='formularioCadastro' action="#" method="get" id='frm'>
               <label for="nome">Nome:</label> 
               <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo" required><br>
 
               <label for="cpf">CPF:</label> 
-              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" required>
+              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" required><br>
               <!--<div class="d" style="display: block" id="display-cpf"><small>O campo cpf deve ter o seguinte formato 123.456.789-09</small></div><br>-->
 
               <label for="cargo">Cargo: </label> 
@@ -95,7 +96,7 @@
 
           </div>
 
-          <div class="col-sm-2  bg-light text-white"><br><br>
+          <div class="col-sm-2  bg-light  rounded-right"><br><br>
             <img src="../img/perfil.jpeg" class=" rounded-circle img-fluid"> 
             <br><br><br><br><br><br>
             <label for="obs">Observações:</label><small>  (opcional) </small>

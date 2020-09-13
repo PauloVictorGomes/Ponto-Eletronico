@@ -1,11 +1,11 @@
 function valida(){
 	var mensagemErro = ''
 	var msgCpf = ''
-	var nome = document.formulario-cadastro.nome
-	var cpf = document.formulario-cadastro.cpf
-	var cargo = document.formulario-cadastro.cargo
-	var entrada = document.formulario-cadastro.entrada
-	var saida = document.fformulario-cadastro.saida
+	var nome = document.formularioCadastro.nome
+	var cpf = document.formularioCadastro.cpf
+	var cargo = document.formularioCadastro.cargo
+	var entrada = document.formularioCadastro.entrada
+	var saida = document.formularioCadastro.saida
 	if(nome.value==''){
 		mensagemErro +='Por favor, preencha o campo NOME\n'
 		nome.focus()
@@ -14,7 +14,6 @@ function valida(){
 		mensagemErro += 'Por favor, preencha o campo CPF\n'
 		nome.focus()
 	}
-	
 	if(cargo.value==''){
 		mensagemErro += 'Por favor, preencha o campo CARGO\n'
 		nome.focus()
@@ -32,6 +31,6 @@ function valida(){
 		alert(mensagemErro);
 	} else {
 		alert(enviando)
-		document.formulario.submit();
+		document.formularioCadastro.submit();
 	}
-}
+} 
