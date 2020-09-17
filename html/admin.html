@@ -20,15 +20,14 @@
     <script type='text/javascript' src='../js/formulario.js'></script>
     <script type='text/javascript' src='../js/relogio.js'></script>
     
+    <title>Administrador</title>
 
-
-    <title>Bater Ponto</title>
   </head>
-  <body onload="startTime()">
+  <body>
     <header>
       <nav class="navbar navbar-expand-xs navbar-expand-md navbar-light bg-info">
         <div class="container"> 
-          <h1 ><a class="navbar-brand text-white" href="#">Ponto Eletrônico</a></h1>
+          <h2 ><a class="navbar-brand text-white" href="#">Ponto Eletrônico</a></h2>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,15 +36,15 @@
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item active">
+                <a class="nav-link text-white" href="baterPonto.html">Bater Ponto</a>
+              </li>
+
+              <li class="nav-item active">
                 <a class="nav-link text-white" href="cadastro.html">Cadastro</a>
               </li>
 
               <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Relatório</a>
-              </li>
-
-              <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Administrador</a>
+                <a class="nav-link text-white" href="relatorio.html">Relatório</a>
               </li>
 
 
@@ -74,19 +73,19 @@
             <h1 class="text-info">Login</h1><br>
 
             <form name='formulario-login' action="#" method="get" id='frm'>
-              <label for="nome">Nome:</label> 
-              <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo" required><br>
+              <label for="nome">Usuário:</label> 
+              <input class="form-control" type="text" name="nome" id="nome" placeholder="Usuário do Administrador" required><br>
 
-              <label for="cpf">CPF:</label> 
-              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" >
-            </form><br><br>
+              <label for="cpf">Senha:</label> 
+              <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="Senha do Administrador" ><br>
+              <button type="submit" class="btn btn-info btn-lg">Entrar</button> 
+              <button type="reset" class="btn btn-secondary btn-lg">Limpar</button>
+              
+            </form><br>
             
           </div>
         </div>
-        <div class="row justify-content-md-center rounded ">
-          <div class="bg-white text-info  h1" id="relogio"></div>
-        </div>
-
+        
       </div>
     </section>
 
