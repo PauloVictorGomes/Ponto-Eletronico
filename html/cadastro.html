@@ -25,7 +25,7 @@
     <header>
       <nav class="navbar navbar-expand-xs navbar-expand-md navbar-light bg-info">
         <div class="container"> 
-          <h2><a class="navbar-brand text-white" href="#">Ponto Eletrônico</a></h2>
+          <h2><a class="navbar-brand text-white" href="baterPonto.html">Ponto Eletrônico</a></h2>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,7 +53,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Quem somos</a>
                   <a class="dropdown-item" href="#">Contato</a>
-                  <a class="dropdown-item" href="#">Jantuscara</a>
+                  <a class="dropdown-item" href="#">Parceiros</a>
                 </div>
               </li>
 
@@ -67,7 +67,7 @@
       <div class="container-fluid " style="margin-top:5%">
         
         <div class="row justify-content-md-center ">
-          <div class="col-sm-4  bg-light  rounded-left">
+          <div class="col-md-4  bg-light  rounded-left">
             <h2 class="text-info">Cadastro</h2><br>
             
             <form name='formularioCadastro' action="#" method="get" id='frm'>
@@ -76,7 +76,7 @@
 
               <label for="cpf">CPF:</label> 
               <input class="form-control" type="text" name="cpf" id="display-cpf" placeholder="xxx.xxx.xxx-xx" required><br>
-              <!--<div class="d" style="display: block" id="display-cpf"><small>O campo cpf deve ter o seguinte formato 123.456.789-09</small></div><br>-->
+            
 
               <label for="cargo">Cargo: </label> 
               <input class="form-control" type="text" name="cargo" id="cargo" placeholder="Supervisor" required><br>
@@ -96,12 +96,13 @@
 
           </div>
 
-          <div class="col-sm-2  bg-light  rounded-right"><br><br>
+          <div class="col-md-2  bg-light  rounded-right"><br><br>
+
             <img src="../img/perfil.jpeg" class=" rounded-circle img-fluid"> 
             <br><br><br><br><br><br>
             <label for="obs">Observações:</label><small>  (opcional)</small>
-            
             <textarea class="form-control" rows="5" id="obs"></textarea>
+
           </div>
 
         </div>
@@ -110,7 +111,7 @@
     </section>
 
     <footer>
-        
+        <!-- Opcional -->
     </footer>
 
   </body>
